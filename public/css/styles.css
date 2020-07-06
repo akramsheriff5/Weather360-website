@@ -1,0 +1,58 @@
+body{
+    color:#333333;
+    font-family:'Times New Roman', Times, serif;
+    max-width: 650px;
+    margin:0 auto;
+    padding: 0 16px;
+
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+.main{
+    flex-grow: 1;
+}
+footer{
+    color: grey;
+    border-top: 1px solid #eeeeee;
+    padding: 12px 250px;
+    margin-top: 26px 0;
+}
+header{
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+h1{
+  font-size: 50px;
+font-family:'Times New Roman', Times, serif;
+margin-bottom: 16px;
+
+}
+header a{
+columns: #888888;
+margin-right: 16px;
+text-decoration:none;
+}
+.portraits{   width:200px;
+}
+
+input{
+    border:1px  solid #cccccc;
+    padding:3px;
+    border-radius: 2px;
+}
+button{
+cursor: pointer;
+border:1px solid #888888;
+background:#524646;
+color:white;
+padding:2px;
+border-radius: 4px;
+
+}
+ #msg1{
+color:#888888;
+ }
+  #msg2{
+      color:green ;
+  }
