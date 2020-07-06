@@ -11,6 +11,7 @@ const viewpath=path.join(__dirname,'../template/views')
 const partialspath=path.join(__dirname,'../template/partials')
 
 const app=express()
+const port=process.env.PORT||8000
 // setup handelbar engine and view location
 app.set('view engine','hbs')
 app.set('views',viewpath)
@@ -84,6 +85,6 @@ name:'Akram',
 errmsg:'page not found!'
      })
      })
-app.listen(8000,()=>{
-    console.log('server is up port on 8000')
+app.listen(port,()=>{
+    console.log('server is up port on '+port)
 })
